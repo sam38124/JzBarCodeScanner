@@ -1,18 +1,12 @@
 package com.jianzhi.jzbarcodescnner
 
-import android.Manifest
-import android.content.pm.PackageManager
-import android.os.Bundle
+import android.graphics.Bitmap
 import android.util.Log
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
-import androidx.fragment.app.Fragment
-import androidx.appcompat.app.AlertDialog
-import androidx.core.app.ActivityCompat
 import com.google.zxing.BarcodeFormat
+import com.google.zxing.EncodeHintType
+import com.google.zxing.MultiFormatWriter
 import com.google.zxing.Result
-import com.jianzhi.jzbarcodescnner.R
 import kotlinx.android.synthetic.main.fragment_frag__function__qrcode_scanner.view.*
 import me.dm7.barcodescanner.zxing.ZXingScannerView
 

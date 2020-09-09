@@ -11,6 +11,7 @@ import android.view.KeyEvent
 import android.view.View
 import android.widget.Button
 import android.widget.FrameLayout
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.app.ActivityCompat.*
@@ -18,6 +19,7 @@ import androidx.fragment.app.Fragment
 import com.google.zxing.BarcodeFormat
 import com.jianzhi.jzbarcodescnner.BarCodeView
 import com.jianzhi.jzbarcodescnner.callback
+import com.jianzhi.jzbarcodescnner.getBarcode
 import com.orange.jzchi.jzframework.JzActivity
 import androidx.core.app.ActivityCompat.checkSelfPermission as checkSelfPermission1
 
@@ -74,6 +76,9 @@ class MainActivity : Activity() {
                                     "確認"
                                 ) { _, _ ->
                                     coder.start()
+                                    var width=findViewById<ImageView>(R.id.imageView).width
+                                    var height=findViewById<ImageView>(R.id.imageView).height
+                                    findViewById<ImageView>(R.id.imageView).setImageBitmap(text.getBarcode(BarcodeFormat.CODE_128,width,height))
                                 }
                                 .show()
                         }
