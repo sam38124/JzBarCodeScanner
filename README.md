@@ -26,7 +26,7 @@ allprojects {
 Add into dependencies
 ```kotlin
 dependencies {
-implementation 'com.github.sam38124: JzBarCodeScanner:1.0'
+implementation 'com.github.sam38124: JzBarCodeScanner:1.1'
 }
 ```
 <a name="Use"></a>
