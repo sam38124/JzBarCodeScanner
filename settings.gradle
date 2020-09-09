@@ -1,0 +1,2 @@
+include ':JzBarCodeScnner'
+include ':app'
