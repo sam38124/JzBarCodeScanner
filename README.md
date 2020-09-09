@@ -66,7 +66,12 @@ coder.start()
 ```kotlin
 coder.stop()
 ```
-
+### 5.Convert string to barcode image
+```kotlin
+var width=findViewById<ImageView>(R.id.imageView).width
+var height=findViewById<ImageView>(R.id.imageView).height
+findViewById<ImageView>(R.id.imageView).setImageBitmap("My bar code String".getBarcode(BarcodeFormat.CODE_128,width,height))
+```
 <a name="About"></a>
 # About me
 #### <font color="#0000dd"> Work for: </font><br /> 
