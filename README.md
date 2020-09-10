@@ -2,7 +2,8 @@
 [![Platform](https://img.shields.io/badge/Platform-%20Android%20-brightgreen.svg)](https://github.com/sam38124)
 [![characteristic](https://img.shields.io/badge/特點-%20輕量級%20%7C%20簡單易用%20%20%7C%20穩定%20-brightgreen.svg)](https://github.com/sam38124)
 # JzBarCodeScanner
-This is a util can very easily to scan barcode~
+This is a util can very easily to scan and create barcode~
+<img src="https://github.com/sam38124/JzBarCodeScanner/blob/master/26424.t.mp4" width = "200"  alt="i5" /> 
 ## List
 * [How to import to project?](#Import)
 * [Quick Start](#Use)
