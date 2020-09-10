@@ -59,11 +59,11 @@ var scanView=BarCodeView(
                         }
                     })
 ```
-### 3.Start Scanner
+### 3.Start scanner
 ```kotlin
 coder.start()
 ```
-### 4.Stop Scanner
+### 4.Stop scanner
 ```kotlin
 coder.stop()
 ```
