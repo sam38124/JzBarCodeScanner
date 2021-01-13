@@ -3,7 +3,7 @@
 [![characteristic](https://img.shields.io/badge/特點-%20輕量級%20%7C%20簡單易用%20%20%7C%20穩定%20-brightgreen.svg)](https://github.com/sam38124)
 # JzBarCodeScanner
 This is a util can very easily to scan and create barcode~<br>
-<img src="https://s13.aconvert.com/convert/p3r68-cdx67/fjadf-its2t.gif" width = "200"  alt="i5" /> 
+<img src="https://github.com/sam38124/JzBarCodeScanner/blob/master/fjadf-its2t.gif" width = "200"  alt="i5" /> 
 ## List
 * [How to import to project?](#Import)
 * [Quick Start](#Use)
@@ -59,11 +59,11 @@ var scanView=BarCodeView(
                         }
                     })
 ```
-### 3.Start Scanner
+### 3.Start scanner
 ```kotlin
 coder.start()
 ```
-### 4.Stop Scanner
+### 4.Stop scanner
 ```kotlin
 coder.stop()
 ```
