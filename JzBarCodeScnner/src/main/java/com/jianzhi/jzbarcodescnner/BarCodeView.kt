@@ -20,7 +20,6 @@ class BarCodeView(
     var callback: callback
 ) : ZXingScannerView.ResultHandler {
     private var mScannerView: ZXingScannerView? = null
-    var ALL_FORMATS: ArrayList<BarcodeFormat> = ArrayList(1)
     var isstart=true
     override fun handleResult(rawResult: Result) {
         callback.result(rawResult.text)
@@ -31,8 +30,7 @@ class BarCodeView(
 
     init {
         mScannerView = ZXingScannerView(view.context)
-        ALL_FORMATS.addAll(barcodeFormat)
-        mScannerView!!.setFormats(ALL_FORMATS)
+        mScannerView!!.setFormats(barcodeFormat.toList())
         mScannerView!!.resumeCameraPreview(this)
         mScannerView!!.setAutoFocus(true)
         mScannerView!!.setAspectTolerance(0.0f)

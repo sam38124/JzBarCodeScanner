@@ -78,7 +78,7 @@ class MainActivity : Activity() {
                                     coder.start()
                                     var width=findViewById<ImageView>(R.id.imageView).width
                                     var height=findViewById<ImageView>(R.id.imageView).height
-                                    findViewById<ImageView>(R.id.imageView).setImageBitmap(text.getBarcode(BarcodeFormat.CODE_128,width,height))
+//                                    findViewById<ImageView>(R.id.imageView).setImageBitmap(text.getBarcode(BarcodeFormat.CODE_128,width,height))
                                 }
                                 .show()
                         }
